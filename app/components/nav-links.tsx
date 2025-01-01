@@ -14,8 +14,8 @@ import { MdOutlineSell } from "react-icons/md";
 // Map of links to display in the side navigation.
 // Depending on the size of the application, this would be stored in a database.
 const links = [
-  { name: 'Search', href: '/search', icon: IoSearch },
-  { name: 'Advertise', href: '/advertise', icon: MdOutlineSell },
+  { name: 'Search', href: '/pages/search', icon: IoSearch },
+  { name: 'Advertise', href: '/pages/advertise', icon: MdOutlineSell },
 ];
 
 export default function NavLinks() {
@@ -29,15 +29,16 @@ export default function NavLinks() {
             key={link.name}
             href={link.href}
             className={clsx(
-              'h-[48px] grow items-center gap-2 rounded-md  bg-blue-600 p-3 font-medium \
-               hover:bg-sky-200 hover:text-blue-600 py-5 w-32 inline-block text-sm',
-              {
+              'h-[48px] grow gap-2 rounded-md  bg-blue-600 font-medium \
+               hover:bg-sky-200 hover:text-black p-4 inline-block text-base',
+               {
                 'bg-sky-100 text-blue-600': pathname === link.href,
+                'text-white': pathname != link.href
               },
             )}        
               >
-                <LinkIcon className="w-6 inline" color="white" />
-                <p className=" text-white inline">{link.name}</p>
+                <LinkIcon className="w-6 inline" />
+                <p className="inline">{link.name}</p>
           </Link>
         );
       })}

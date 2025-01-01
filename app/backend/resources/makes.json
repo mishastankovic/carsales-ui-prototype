@@ -1,0 +1,674 @@
+[
+    {
+        "key": "17200",
+        "value": "Mercedes-Benz"
+    },
+    {
+        "key": "3500",
+        "value": "BMW"
+    },
+    {
+        "key": "1900",
+        "value": "Audi"
+    },
+    {
+        "key": "25200",
+        "value": "Volkswagen"
+    },
+    {
+        "key": "20100",
+        "value": "Porsche"
+    },
+    {
+        "key": "9000",
+        "value": "Ford"
+    },
+    {
+        "key": "22900",
+        "value": "Skoda"
+    },
+    {
+        "key": "19000",
+        "value": "Opel"
+    },
+    {
+        "key": "24100",
+        "value": "Toyota"
+    },
+    {
+        "key": "25100",
+        "value": "Volvo"
+    },
+    {
+        "key": "140",
+        "value": "Abarth"
+    },
+    {
+        "key": "203",
+        "value": "AC"
+    },
+    {
+        "key": "375",
+        "value": "Acura"
+    },
+    {
+        "key": "31930",
+        "value": "Aiways"
+    },
+    {
+        "key": "800",
+        "value": "Aixam"
+    },
+    {
+        "key": "900",
+        "value": "Alfa Romeo"
+    },
+    {
+        "key": "1100",
+        "value": "ALPINA"
+    },
+    {
+        "key": "5",
+        "value": "Alpine"
+    },
+    {
+        "key": "32315",
+        "value": "Alvis"
+    },
+    {
+        "key": "31876",
+        "value": "Ariel"
+    },
+    {
+        "key": "121",
+        "value": "Artega"
+    },
+    {
+        "key": "1750",
+        "value": "Asia Motors"
+    },
+    {
+        "key": "1700",
+        "value": "Aston Martin"
+    },
+    {
+        "key": "1900",
+        "value": "Audi"
+    },
+    {
+        "key": "2000",
+        "value": "Austin"
+    },
+    {
+        "key": "1950",
+        "value": "Austin Healey"
+    },
+    {
+        "key": "31863",
+        "value": "BAIC"
+    },
+    {
+        "key": "2600",
+        "value": "Barkas"
+    },
+    {
+        "key": "3100",
+        "value": "Bentley"
+    },
+    {
+        "key": "32316",
+        "value": "Bizzarrini"
+    },
+    {
+        "key": "3500",
+        "value": "BMW"
+    },
+    {
+        "key": "3850",
+        "value": "Borgward"
+    },
+    {
+        "key": "4025",
+        "value": "Brilliance"
+    },
+    {
+        "key": "4350",
+        "value": "Bugatti"
+    },
+    {
+        "key": "4400",
+        "value": "Buick"
+    },
+    {
+        "key": "31953",
+        "value": "BYD"
+    },
+    {
+        "key": "4700",
+        "value": "Cadillac"
+    },
+    {
+        "key": "112",
+        "value": "Casalini"
+    },
+    {
+        "key": "5300",
+        "value": "Caterham"
+    },
+    {
+        "key": "31944",
+        "value": "Cenntro"
+    },
+    {
+        "key": "83",
+        "value": "Chatenet"
+    },
+    {
+        "key": "5600",
+        "value": "Chevrolet"
+    },
+    {
+        "key": "5700",
+        "value": "Chrysler"
+    },
+    {
+        "key": "5900",
+        "value": "Citroën"
+    },
+    {
+        "key": "6200",
+        "value": "Cobra"
+    },
+    {
+        "key": "6325",
+        "value": "Corvette"
+    },
+    {
+        "key": "3",
+        "value": "Cupra"
+    },
+    {
+        "key": "6600",
+        "value": "Dacia"
+    },
+    {
+        "key": "6800",
+        "value": "Daewoo"
+    },
+    {
+        "key": "7000",
+        "value": "Daihatsu"
+    },
+    {
+        "key": "32317",
+        "value": "Delahaye"
+    },
+    {
+        "key": "7400",
+        "value": "DeTomaso"
+    },
+    {
+        "key": "31864",
+        "value": "DFSK"
+    },
+    {
+        "key": "7700",
+        "value": "Dodge"
+    },
+    {
+        "key": "255",
+        "value": "Donkervoort"
+    },
+    {
+        "key": "235",
+        "value": "DS Automobiles"
+    },
+    {
+        "key": "31931",
+        "value": "e.GO"
+    },
+    {
+        "key": "31932",
+        "value": "Elaris"
+    },
+    {
+        "key": "32142",
+        "value": "Estrima"
+    },
+    {
+        "key": "32318",
+        "value": "Facel Vega"
+    },
+    {
+        "key": "8600",
+        "value": "Ferrari"
+    },
+    {
+        "key": "8800",
+        "value": "Fiat"
+    },
+    {
+        "key": "172",
+        "value": "Fisker"
+    },
+    {
+        "key": "9000",
+        "value": "Ford"
+    },
+    {
+        "key": "205",
+        "value": "GAC Gonow"
+    },
+    {
+        "key": "204",
+        "value": "Gemballa"
+    },
+    {
+        "key": "270",
+        "value": "Genesis"
+    },
+    {
+        "key": "9900",
+        "value": "GMC"
+    },
+    {
+        "key": "122",
+        "value": "Grecav"
+    },
+    {
+        "key": "30006",
+        "value": "GWM"
+    },
+    {
+        "key": "186",
+        "value": "Hamann"
+    },
+    {
+        "key": "32141",
+        "value": "Heinkel"
+    },
+    {
+        "key": "10850",
+        "value": "Holden"
+    },
+    {
+        "key": "11000",
+        "value": "Honda"
+    },
+    {
+        "key": "32228",
+        "value": "Hongqi"
+    },
+    {
+        "key": "32319",
+        "value": "Horch"
+    },
+    {
+        "key": "11050",
+        "value": "Hummer"
+    },
+    {
+        "key": "11600",
+        "value": "Hyundai"
+    },
+    {
+        "key": "32033",
+        "value": "INEOS"
+    },
+    {
+        "key": "11650",
+        "value": "Infiniti"
+    },
+    {
+        "key": "11900",
+        "value": "Isuzu"
+    },
+    {
+        "key": "12100",
+        "value": "Iveco"
+    },
+    {
+        "key": "30708",
+        "value": "JAC"
+    },
+    {
+        "key": "12400",
+        "value": "Jaguar"
+    },
+    {
+        "key": "12600",
+        "value": "Jeep"
+    },
+    {
+        "key": "32305",
+        "value": "Jiayuan"
+    },
+    {
+        "key": "13200",
+        "value": "Kia"
+    },
+    {
+        "key": "13450",
+        "value": "Koenigsegg"
+    },
+    {
+        "key": "13900",
+        "value": "KTM"
+    },
+    {
+        "key": "14400",
+        "value": "Lada"
+    },
+    {
+        "key": "14600",
+        "value": "Lamborghini"
+    },
+    {
+        "key": "14700",
+        "value": "Lancia"
+    },
+    {
+        "key": "14800",
+        "value": "Land Rover"
+    },
+    {
+        "key": "14845",
+        "value": "Landwind"
+    },
+    {
+        "key": "32303",
+        "value": "Leapmotor"
+    },
+    {
+        "key": "31933",
+        "value": "LEVC"
+    },
+    {
+        "key": "15200",
+        "value": "Lexus"
+    },
+    {
+        "key": "15400",
+        "value": "Ligier"
+    },
+    {
+        "key": "15500",
+        "value": "Lincoln"
+    },
+    {
+        "key": "15900",
+        "value": "Lotus"
+    },
+    {
+        "key": "32172",
+        "value": "Lucid"
+    },
+    {
+        "key": "31934",
+        "value": "Lynk&amp;Co"
+    },
+    {
+        "key": "16200",
+        "value": "Mahindra"
+    },
+    {
+        "key": "16500",
+        "value": "MAN"
+    },
+    {
+        "key": "16600",
+        "value": "Maserati"
+    },
+    {
+        "key": "31896",
+        "value": "Maxus"
+    },
+    {
+        "key": "16700",
+        "value": "Maybach"
+    },
+    {
+        "key": "16800",
+        "value": "Mazda"
+    },
+    {
+        "key": "137",
+        "value": "McLaren"
+    },
+    {
+        "key": "17200",
+        "value": "Mercedes-Benz"
+    },
+    {
+        "key": "17300",
+        "value": "MG"
+    },
+    {
+        "key": "30011",
+        "value": "Microcar"
+    },
+    {
+        "key": "32044",
+        "value": "Microlino"
+    },
+    {
+        "key": "17500",
+        "value": "MINI"
+    },
+    {
+        "key": "17700",
+        "value": "Mitsubishi"
+    },
+    {
+        "key": "17900",
+        "value": "Morgan"
+    },
+    {
+        "key": "31954",
+        "value": "NIO"
+    },
+    {
+        "key": "18700",
+        "value": "Nissan"
+    },
+    {
+        "key": "18875",
+        "value": "NSU"
+    },
+    {
+        "key": "18975",
+        "value": "Oldsmobile"
+    },
+    {
+        "key": "19000",
+        "value": "Opel"
+    },
+    {
+        "key": "31955",
+        "value": "ORA"
+    },
+    {
+        "key": "149",
+        "value": "Pagani"
+    },
+    {
+        "key": "19300",
+        "value": "Peugeot"
+    },
+    {
+        "key": "19600",
+        "value": "Piaggio"
+    },
+    {
+        "key": "19800",
+        "value": "Plymouth"
+    },
+    {
+        "key": "4",
+        "value": "Polestar"
+    },
+    {
+        "key": "20000",
+        "value": "Pontiac"
+    },
+    {
+        "key": "20100",
+        "value": "Porsche"
+    },
+    {
+        "key": "20200",
+        "value": "Proton"
+    },
+    {
+        "key": "20700",
+        "value": "Renault"
+    },
+    {
+        "key": "21600",
+        "value": "Rolls-Royce"
+    },
+    {
+        "key": "21700",
+        "value": "Rover"
+    },
+    {
+        "key": "125",
+        "value": "Ruf"
+    },
+    {
+        "key": "21800",
+        "value": "Saab"
+    },
+    {
+        "key": "22000",
+        "value": "Santana"
+    },
+    {
+        "key": "22500",
+        "value": "Seat"
+    },
+    {
+        "key": "32144",
+        "value": "Seres"
+    },
+    {
+        "key": "293",
+        "value": "Simca"
+    },
+    {
+        "key": "22900",
+        "value": "Skoda"
+    },
+    {
+        "key": "23000",
+        "value": "Smart"
+    },
+    {
+        "key": "188",
+        "value": "speedART"
+    },
+    {
+        "key": "100",
+        "value": "Spyker"
+    },
+    {
+        "key": "23100",
+        "value": "Ssangyong"
+    },
+    {
+        "key": "296",
+        "value": "Studebaker"
+    },
+    {
+        "key": "23500",
+        "value": "Subaru"
+    },
+    {
+        "key": "23600",
+        "value": "Suzuki"
+    },
+    {
+        "key": "247",
+        "value": "SWM"
+    },
+    {
+        "key": "23800",
+        "value": "Talbot"
+    },
+    {
+        "key": "23825",
+        "value": "Tata"
+    },
+    {
+        "key": "189",
+        "value": "TECHART"
+    },
+    {
+        "key": "135",
+        "value": "Tesla"
+    },
+    {
+        "key": "24100",
+        "value": "Toyota"
+    },
+    {
+        "key": "24200",
+        "value": "Trabant"
+    },
+    {
+        "key": "24400",
+        "value": "Triumph"
+    },
+    {
+        "key": "24500",
+        "value": "TVR"
+    },
+    {
+        "key": "31389",
+        "value": "Vincent"
+    },
+    {
+        "key": "32207",
+        "value": "VinFast"
+    },
+    {
+        "key": "25200",
+        "value": "Volkswagen"
+    },
+    {
+        "key": "25100",
+        "value": "Volvo"
+    },
+    {
+        "key": "25300",
+        "value": "Wartburg"
+    },
+    {
+        "key": "113",
+        "value": "Westfield"
+    },
+    {
+        "key": "31956",
+        "value": "WEY"
+    },
+    {
+        "key": "25650",
+        "value": "Wiesmann"
+    },
+    {
+        "key": "32034",
+        "value": "XEV"
+    },
+    {
+        "key": "32208",
+        "value": "XPENG"
+    },
+    {
+        "key": "32032",
+        "value": "Zhidou"
+    },
+    {
+        "key": "1400",
+        "value": "Other"
+    }
+]

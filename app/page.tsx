@@ -8,12 +8,6 @@ import TopNav from './components/topnav';
 
 export default function Page() {
   return (
-    <main className="flex flex-col p-[0.1rem]">
-      <div className="flex h-screen flex-col md:flex-row md:overflow-hidden">
-        <div className="w-full flex-none w-220">
-          <TopNav />
-        </div>
-      </div>
-    </main>
+""
   );
 }
