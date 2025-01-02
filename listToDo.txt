@@ -1,0 +1,14 @@
+- establish common classes for all types of components.
+    - input fields
+        - single select
+        - multi select
+        - checkboxes
+        - dates
+    - buttons
+    - labels
+    - headings
+    - form panel
+    - field groups
+- setup static data for all drop downs on the search form
+- go through the top level menu, compare with other sites
+- design search result

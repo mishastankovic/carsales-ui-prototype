@@ -92,10 +92,6 @@
         "value": "Aston Martin"
     },
     {
-        "key": "1900",
-        "value": "Audi"
-    },
-    {
         "key": "2000",
         "value": "Austin"
     },
@@ -118,10 +114,6 @@
     {
         "key": "32316",
         "value": "Bizzarrini"
-    },
-    {
-        "key": "3500",
-        "value": "BMW"
     },
     {
         "key": "3850",
@@ -250,10 +242,6 @@
     {
         "key": "172",
         "value": "Fisker"
-    },
-    {
-        "key": "9000",
-        "value": "Ford"
     },
     {
         "key": "205",
@@ -436,10 +424,6 @@
         "value": "McLaren"
     },
     {
-        "key": "17200",
-        "value": "Mercedes-Benz"
-    },
-    {
         "key": "17300",
         "value": "MG"
     },
@@ -480,10 +464,6 @@
         "value": "Oldsmobile"
     },
     {
-        "key": "19000",
-        "value": "Opel"
-    },
-    {
         "key": "31955",
         "value": "ORA"
     },
@@ -510,10 +490,6 @@
     {
         "key": "20000",
         "value": "Pontiac"
-    },
-    {
-        "key": "20100",
-        "value": "Porsche"
     },
     {
         "key": "20200",
@@ -554,10 +530,6 @@
     {
         "key": "293",
         "value": "Simca"
-    },
-    {
-        "key": "22900",
-        "value": "Skoda"
     },
     {
         "key": "23000",
@@ -608,10 +580,6 @@
         "value": "Tesla"
     },
     {
-        "key": "24100",
-        "value": "Toyota"
-    },
-    {
         "key": "24200",
         "value": "Trabant"
     },
@@ -630,14 +598,6 @@
     {
         "key": "32207",
         "value": "VinFast"
-    },
-    {
-        "key": "25200",
-        "value": "Volkswagen"
-    },
-    {
-        "key": "25100",
-        "value": "Volvo"
     },
     {
         "key": "25300",

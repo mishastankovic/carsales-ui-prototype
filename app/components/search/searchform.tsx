@@ -12,9 +12,9 @@ export default async function SearchForm() {
   const makes = fetchMakes();
 
   return (
-    <form>
+    <form className="bg-gray-300 p-5 border-gray-400 border-2rounded-md ">
       
-      <div className="rounded-md bg-gray-50 p-4 md:p-6">
+      <div className="rounded-md p-4 md:p-6">
         {/* Make */}
         <div className="mb-4">
           {<label htmlFor="make" className="mb-2 block text-sm font-medium">
@@ -31,8 +31,8 @@ export default async function SearchForm() {
                 Select car make
               </option>
               {(await makes).map((make) => (
-                <option key={make.name} value={make.name}>
-                  {make.name}
+                <option key={make.key} value={make.value}>
+                  {make.value}
                 </option>
               ))}
             </select>
