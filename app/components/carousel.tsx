@@ -95,7 +95,7 @@ const Carousel = ({ images = [''], autoSlide = true, autoSlideInterval = 3000, g
             key={index}
             className={`absolute inset-0 transform duration-[450ms] ease-in-out ${itemStyles[index]}`}
           >
-            <img src={image} alt={`Slide ${index}`} className="w-full h-full object-cover rounded-lg" />
+            <img src={image} alt={`Slide ${index}`} className="w-full h-auto object-cover rounded-lg" />
           </div>
         ))}
       </div>
@@ -113,7 +113,7 @@ const Carousel = ({ images = [''], autoSlide = true, autoSlideInterval = 3000, g
       </button>
 
       {/* Render gallery under the carousel */}
-      <div className="left-0 flex justify-center">
+      <div className="hidden left-0 md:flex justify-center">
         {
         imageSlice.map((image, index) => (
           <div
