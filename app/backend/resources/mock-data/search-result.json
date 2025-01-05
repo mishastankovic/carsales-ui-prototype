@@ -1,0 +1,47 @@
+[
+    {
+        "id": "1",
+        "listingType": "normal",
+        "image": "https://gcdn.polovniautomobili.com/user-images/thumbs/2540/25405473/0d89d032bcd1-370x278-dw.jpg",
+        "price": "14.800 €",
+        "thumbnails": [
+            "https://gcdn.polovniautomobili.com/user-images/thumbs/2540/25405473/735d2f215410-170x128.jpg",
+            "https://gcdn.polovniautomobili.com/user-images/thumbs/2540/25405473/5c51217afe90-170x128.jpg",
+            "https://gcdn.polovniautomobili.com/user-images/thumbs/2540/25405473/6d515b6d29d3-170x128.jpg"
+        ],
+        "title": "Peugeot 2008 GT/Kamera",
+        "subtitle": "Kilometraža: 81716 KM, Navigacija, Tempomat, Automatski / poluauto",
+        "year": "2018.",
+        "bodyStyle": "Džip/SUV",
+        "mileage": "81.716 km",
+        "power": "96kW (131KS)",
+        "transmission": "Automatski / poluautomatic",
+        "fuelType": "Benzin",
+        "engineVolume": "1199 cm3",
+        "location": "Novi Beograd",
+        "dealerealerIcon": "https://www.polovniautomobili.com/user-images/superadvertiser/1677567/logo-small.jpg?mod=1607254350"
+    },
+    {
+        "id": "2",
+        "listingType": "normal",
+        "image": "https://gcdn.polovniautomobili.com/user-images/thumbs/2099/20995051/5d3b964e633c-370x278-dw.jpg",
+        "price": "14.800 €",
+        "thumbnails": [
+            "https://gcdn.polovniautomobili.com/user-images/thumbs/2099/20995051/b0efcd3a310b-170x128.jpg",
+            "https://gcdn.polovniautomobili.com/user-images/thumbs/2099/20995051/c7b945664f39-170x128.jpg",
+            "https://gcdn.polovniautomobili.com/user-images/thumbs/2099/20995051/e8d020474e1d-170x128.jpg"
+        ],
+        "title": "Opel Crossland X 1.2 b n o v a u t o",
+        "subtitle": "",
+        "year": "2021.",
+        "bodyStyle": "Džip/SUV",
+        "mileage": "32.048 km",
+        "power": "81kW (110KS)",
+        "transmission": "Manuelni 6 brzina",
+        "fuelType": "Benzin",
+        "engineVolume": "1199 cm3",
+        "location": "Čačak",
+        "dealerealerIcon": "https://www.polovniautomobili.com/user-images/superadvertiser/109865/logo-small.jpg?mod=1427553299"
+    }
+
+]
