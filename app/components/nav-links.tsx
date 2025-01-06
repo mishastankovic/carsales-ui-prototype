@@ -33,12 +33,12 @@ export default function NavLinks() {
                hover:bg-sky-200 hover:text-black p-4 inline-block text-base',
                {
                 'bg-sky-100 text-blue-600': pathname === link.href,
-                'text-white': pathname != link.href
+                'text-white bg-blue-600': pathname != link.href
               },
             )}        
               >
                 <LinkIcon className="w-6 inline" />
-                <p className="inline">{link.name}</p>
+                <p className="md:inline hidden">{link.name}</p>
           </Link>
         );
       })}

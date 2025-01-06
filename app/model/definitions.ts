@@ -20,4 +20,5 @@ export type CardData = {
     engineVolume: string;
     location: string;
     dealerealerIcon: string;
+    dealerName: string;
 };

@@ -25,7 +25,7 @@
         "id": "2",
         "listingType": "normal",
         "image": "https://gcdn.polovniautomobili.com/user-images/thumbs/2099/20995051/5d3b964e633c-370x278-dw.jpg",
-        "price": "14.800 €",
+        "price": "12.490 €",
         "thumbnails": [
             "https://gcdn.polovniautomobili.com/user-images/thumbs/2099/20995051/b0efcd3a310b-170x128.jpg",
             "https://gcdn.polovniautomobili.com/user-images/thumbs/2099/20995051/c7b945664f39-170x128.jpg",
@@ -41,7 +41,28 @@
         "fuelType": "Benzin",
         "engineVolume": "1199 cm3",
         "location": "Čačak",
-        "dealerealerIcon": "https://www.polovniautomobili.com/user-images/superadvertiser/109865/logo-small.jpg?mod=1427553299"
+        "dealerealerIcon": "https://www.polovniautomobili.com/user-images/superadvertiser/109865/logo-small.jpg?mod=1427553299",
+        "dealerName": ""
+
+    },
+    {
+        "id": "3",
+        "listingType": "normal",
+        "image": "https://gcdn.polovniautomobili.com/user-images/thumbs/2504/25042487/bb6b0fc27d25-800x600-dw.jpg",
+        "price": "23.990 €",
+        "thumbnails": [],
+        "title": "Ford Puma NEW TITANIUM DC7",
+        "subtitle": "Benzin, Garancija, Rezervni ključ, Automatski / poluautomatski",
+        "year": "2024.",
+        "bodyStyle": "Džip/SUV",
+        "mileage": "0km",
+        "power": "96kW (131KS)",
+        "transmission": "Automatski",
+        "fuelType": "Benzin",
+        "engineVolume": "998 cm3",
+        "location": "Novi Beograd",
+        "dealerealerIcon": "https://www.polovniautomobili.com/grandmotors-srbija?ref=logo-ad-results"
     }
+
 
 ]

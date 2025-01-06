@@ -10,10 +10,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} antialiased`}>
-          <div className="w-full">
+          <div className="w-full overflow-hidden">
             <TopNav />
           </div>
-          <div className="w-full p-2">
+          <div className="w-full p-2 bg-gray-300">
               {children}
           </div>
       </body>
