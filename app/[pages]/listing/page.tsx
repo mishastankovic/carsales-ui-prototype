@@ -27,8 +27,8 @@ export default function Page() {
     */
 
     return (
-        <div className="flex justify-left items-start min-h-screen bg-gray-100 rounded-lg">
-            <Carousel images={images} gallerySize={8} />
+        <div className="flex justify-left items-start bg-gray-100 rounded-lg">
+            <Carousel images={images} gallerySize={8} height={'h-[17rem] md:h-[32rem]'}/>
         </div>
     );
 };

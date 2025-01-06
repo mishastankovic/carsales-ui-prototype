@@ -8,7 +8,7 @@ import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
  * @param param0 Implemented based on https://tailkits.com/blog/tailwind-css-carousel-with-react-a-step-by-step-guide/
  * @returns 
  */
-const Carousel = ({ images = [''], autoSlide = true, autoSlideInterval = 3000, gallerySize = 5 }) => {
+const Carousel = ({ images = [''], autoSlide = true, autoSlideInterval = 3000, gallerySize = 5, height = '' }) => {
   const [currentIndex, setCurrentIndex] = React.useState(0);
   const [direction, setDirection] = React.useState(1);
 
@@ -89,7 +89,7 @@ const Carousel = ({ images = [''], autoSlide = true, autoSlideInterval = 3000, g
 
   return (
     <div className="relative w-full max-w-2xl">
-      <div className="overflow-hidden relative h-[32rem]">
+      <div className={`overflow-hidden relative ${height}`}>
         {images.map((image, index) => (
           <div
             key={index}
@@ -100,13 +100,13 @@ const Carousel = ({ images = [''], autoSlide = true, autoSlideInterval = 3000, g
         ))}
       </div>
       <button
-        className="absolute pl-1 top-1/2 left-1 transform -translate-y-1/2 rounded-full bg-blue-300 text-2xl w-9 h-9  bg-opacity-50 text-white"
+        className="absolute pl-1 top-[40%] left-1 transform -translate-y-1 rounded-full bg-blue-300 text-2xl w-9 h-9  bg-opacity-50 text-white"
         onClick={prevSlide}
       >
         <IoIosArrowBack />
         </button>
       <button
-        className="absolute pl-2 top-1/2 right-1 transform -translate-y-1/2 rounded-full bg-blue-300 text-2xl w-9 h-9 bg-opacity-50 text-white"
+        className="absolute pl-2 top-[40%] right-1 transform -translate-y-1 rounded-full bg-blue-300 text-2xl w-9 h-9 bg-opacity-50 text-white"
         onClick={nextSlide}
       >
         <IoIosArrowForward />
@@ -118,11 +118,11 @@ const Carousel = ({ images = [''], autoSlide = true, autoSlideInterval = 3000, g
         imageSlice.map((image, index) => (
           <div
             key={index}
-            className={`w-40 h-30 pt-1`}
+            className={`w-40 h-30 pt-[1px]`}
             onClick={() => onGalleryClick(start + index)}
           >
             <img src={image} alt={`Slide ${start + index}`} 
-              className={`w-40 h-auto object-cover border-solid border-2 ${index + start === currentIndex ? 'border-orange-400' : 'border-black-100'}`} />
+              className={`w-40 h-auto object-cover border-solid border-[1px] ${index + start === currentIndex ? 'border-orange-400' : 'border-black-100'}`} />
           </div>
         ))}
       </div>
