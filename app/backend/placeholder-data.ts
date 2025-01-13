@@ -2,6 +2,7 @@
 // https://nextjs.org/learn/dashboard-app/fetching-data
 import makes from './resources/makes.json';
 import searchResult from './resources/mock-data/search-result.json';
+import listingDetails from './resources/mock-data/listing.json'
 
 const users = [
   {
@@ -13,4 +14,4 @@ const users = [
 ];
 
 
-export { makes, users, searchResult };
+export { makes, users, searchResult, listingDetails };

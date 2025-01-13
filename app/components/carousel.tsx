@@ -122,7 +122,7 @@ const Carousel = ({ images = [''], autoSlide = true, autoSlideInterval = 3000, g
             onClick={() => onGalleryClick(start + index)}
           >
             <img src={image} alt={`Slide ${start + index}`} 
-              className={`w-40 h-auto object-cover border-solid border-[1px] ${index + start === currentIndex ? 'border-orange-400' : 'border-black-100'}`} />
+              className={`w-40 h-auto object-cover border-solid  ${index + start === currentIndex ? 'border-orange-400 border-[4px]' : 'border-black-100 border-[1px]'}`} />
           </div>
         ))}
       </div>

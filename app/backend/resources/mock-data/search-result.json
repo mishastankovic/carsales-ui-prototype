@@ -15,7 +15,7 @@
         "bodyStyle": "Džip/SUV",
         "mileage": "81.716 km",
         "power": "96kW (131KS)",
-        "transmission": "Automatski / poluautomatic",
+        "transmission": "Automatiski",
         "fuelType": "Benzin",
         "engineVolume": "1199 cm3",
         "location": "Novi Beograd",
@@ -37,13 +37,11 @@
         "bodyStyle": "Džip/SUV",
         "mileage": "32.048 km",
         "power": "81kW (110KS)",
-        "transmission": "Manuelni 6 brzina",
+        "transmission": "Manuelni",
         "fuelType": "Benzin",
         "engineVolume": "1199 cm3",
         "location": "Čačak",
-        "dealerealerIcon": "https://www.polovniautomobili.com/user-images/superadvertiser/109865/logo-small.jpg?mod=1427553299",
-        "dealerName": ""
-
+        "dealerealerIcon": "https://www.polovniautomobili.com/user-images/superadvertiser/109865/logo-small.jpg?mod=1427553299"
     },
     {
         "id": "3",
@@ -61,7 +59,7 @@
         "fuelType": "Benzin",
         "engineVolume": "998 cm3",
         "location": "Novi Beograd",
-        "dealerealerIcon": "https://www.polovniautomobili.com/grandmotors-srbija?ref=logo-ad-results"
+        "dealerealerIcon": "https://www.polovniautomobili.com/user-images/superadvertiser/71698/logo-small.jpg?mod=1650372870"
     }
 
 

@@ -7,15 +7,17 @@ import { Button } from "../button";
 import { FaRegHeart } from "react-icons/fa";
 import { FaHeart } from "react-icons/fa";
 import { useState } from "react";
+import { useRouter } from "next/navigation"
 
 
 const ListingCard = ({cardData}: {cardData: CardData}) => {
 
     const [liked, setLiked] = useState(false);
+    const router = useRouter();
 
     return (
-        <div className="flex flex-col md:flex-row w-full rounded-lg border-gray-400 border-solid border-1 shadow-lg bg-gray-200 text-black mb-2 overflow-hidden">
-            <div className="flex flex-col overflow-hidden w-full md:w-2/5 md:min-w-72">
+        <div className="flex flex-col w-full rounded-lg mb-3 border-gray-400 border-solid border-1 shadow-lg bg-gray-200 text-black overflow-hidden md:flex-row ">
+            <div className="flex flex-col overflow-hidden w-full md:w-3/5 md:min-w-72" onClick={() => router.push(`/pages/${cardData.id}/listing`)}>
                 <LazyImage src={cardData.image} alt={`cardData.title`} style="w-full h-auto md:min-w-72"/>
                 {cardData.thumbnails && cardData.thumbnails.length > 0 && (
                 <div className="flex flex-row w-full h-auto">
@@ -28,32 +30,35 @@ const ListingCard = ({cardData}: {cardData: CardData}) => {
                 </div>
                 )}
             </div>
-            <div className="block md:flex md:flex-col p-5 md:space-y-8 md:ml-5 md:mr-auto w-full">
-                <div className="flex-row w-full">
+            <div className="block md:flex md:flex-col p-3 md:ml-5 md:mr-auto w-full">
+                <div className="flex w-full">
                     <div className="w-full">
                         <span className="inline-block text-xl font-bold"><h1>{cardData.title}</h1></span>
-                        <span className="ml-2 float-right text-red-700" onClick={() => setLiked(!liked)}>
+                        <p className="text-sm">{cardData.subtitle}</p>
+                    </div>
+                    <div >
+                        <span className="ml-2 mb-5 float-right text-red-700" onClick={() => setLiked(!liked)}>
                             {liked ? <FaHeart /> : <FaRegHeart />}
                         </span>
-                    </div>
-                    <p className="text-xs">{cardData.subtitle}</p>
-                </div>
-                <div className="flex font-bold text-2xl md: mt-5">
-                    <p>{cardData.price}</p>
-                </div>
-                <div className="flex text-xs">
-                    <p>{cardData.bodyStyle}</p>
-                    <p>{cardData.power}</p>
-                    <p>{cardData.mileage}</p>
-                    <p>{cardData.engineVolume}</p>
-                    <p>{cardData.fuelType}</p>
-                </div>
-                <div className="flex items-end justify-between text-sm w-full">
-                    <Button className='bg-sky-600'>Contact</Button>
-                    <span className="block">
                         {cardData.dealerealerIcon &&
                             <LazyImage src={cardData.dealerealerIcon} alt='Dealer icon' style="w-30 h-auto" />
                         }
+                    </div>
+                </div>
+                <div className="flex font-bold text-2xl mt-1 md:mt-5">
+                    <p>{cardData.price}</p>
+                </div>
+                <div className="flex flex-wrap mt-1 text-xs md:mt-5  md:text-sm">
+                    <p className="border-solid border-black border-r-[1px] pr-[8px]">{`${cardData.year}`}</p>
+                    <p className="border-solid border-black border-r-[1px] pl-[8px] pr-[8px]">{`${cardData.mileage}`}</p>
+                    <p className="border-solid border-black border-r-[1px] pl-[8px] pr-[8px]">{`${cardData.power}`}</p>
+                    <p className="border-solid border-black border-r-[1px] pl-[8px] pr-[8px]">{`${cardData.fuelType}`}</p>
+                    <p className="border-solid border-black border-r-[1px] pl-[8px] pr-[8px]">{`${cardData.transmission}`}</p>
+                    <p className="pl-[8px]">{`${cardData.engineVolume}`}</p>
+                </div>
+                <div className="flex mt-3 md:mt-auto justify-between text-sm w-full">
+                    <Button className='bg-sky-600'>Contact</Button>
+                    <span className="block">
                         <p className="align-middle pt-2">{cardData.location}</p>
                     </span>    
                 </div>

@@ -1,14 +1,28 @@
-- establish common classes for all types of components.
-    - input fields
-        - single select
-        - multi select
-        - checkboxes
-        - dates
-    - buttons
-    - labels
-    - headings
-    - form panel
-    - field groups
-- setup static data for all drop downs on the search form
-- go through the top level menu, compare with other sites
-- design search result
+
+- Search form
+    - Design data model within client
+        - Login information
+        - Search parameters
+        - Search result
+    - List the rquired components and look for implementation in the Tailwind Next.js component frameworks
+    - Clarify how to hold data for a search result globally.
+- Create add scraper
+- Implement Registration
+- Implement login
+- Improve existing
+    - Add pagination to search result
+    - Limit banner width to the with of the page div
+    - Add breadcrumbs
+    - Implement dark theme and switch between light and dark.
+    - Add number of photos on Carousel as well as on listing card
+    - Consolidate data model between CardData and ListingDetails. Should all use ListingDetails.
+- Make the following options available for logged in users only:
+    - Like listing
+    - Save search
+    - Advertise
+- Implement internationalisation
+    - English and Serbian to start with
+- Implement Create listing
+    - form
+    - flow, curently without payment
+    - 

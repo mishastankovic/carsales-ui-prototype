@@ -1,3 +1,5 @@
+"usse client"
+
 import Image from 'next/image';
 import { defaultFont } from '@/app/components/fonts';
 import Search from '@/app/components/search';
@@ -15,7 +17,7 @@ export default function SearchResultList({ searchResult, }: { searchResult: Card
         <div className="overflow-x-auto">
           <div className="flex min-w-full align-middle justify-center">
             <div className = "flex flex-1 min-w-0" ></div>
-            <div className="flex flex-2 flex-col overflow-hidden md:pt-0">
+            <div className="flex flex-2 flex-col overflow-hidden pt-0">
               { 
                 searchResult?.map((listing) => (
                   <ListingCard cardData = {listing} key = {listing.id} />

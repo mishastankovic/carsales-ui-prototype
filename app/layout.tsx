@@ -13,7 +13,7 @@ export default function RootLayout({
           <div className="w-full overflow-hidden">
             <TopNav />
           </div>
-          <div className="w-full p-2 bg-gray-300">
+          <div className="w-full p-4 bg-gray-300">
               {children}
           </div>
       </body>
