@@ -7,7 +7,7 @@ export default function TopNav() {
   return (
     <div className="flex flex-row px-3 py-4 bg-blue-600 w-full">
       <Link className="flex-col flex rounded-md" href="/" >
-        <div className="text-white">
+        <div className="text-white flex">
           <CarsalesLogo />
         </div>
       </Link>

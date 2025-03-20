@@ -1,10 +1,10 @@
 "use client"
 
 import React, { useState } from 'react';
-import Carousel from '@/app/components/carousel';
+import Carousel from '@/app/components/basic/carousel';
 import { getListingDetails } from '@/app/backend/dataService';
-import LazyImage from '@/app/components/lazy-loading-image';
-import { Button } from '@/app/components/button';
+import LazyImage from '@/app/components/basic/lazy-loading-image';
+import { Button } from '@/app/components/basic/button';
 import { FaHeart, FaRegHeart } from 'react-icons/fa';
 import { IoMdEye, IoMdEyeOff } from "react-icons/io";
 import { BsFuelPump } from "react-icons/bs"; // fuel
@@ -43,7 +43,7 @@ export default function Page(params: { id: string } ) {
                     </div>
                     <div className="space-y-4">
                         {
-                        listingDetails.seller.name ? 
+                        listingDetails?.seller?.name ? 
                         <div className="flex flex-row justify-between">
                             <div className="flex flex-col">
                                 <p className="text-lg">{listingDetails.seller.name}</p>
@@ -55,16 +55,16 @@ export default function Page(params: { id: string } ) {
                         </div>
                         : 
                         <div>
-                            <p>{listingDetails.seller.city}</p>
-                            <p>Tel: {listingDetails.seller.phone}</p>
+                            <p>{listingDetails?.seller?.city}</p>
+                            <p>Tel: {listingDetails?.seller?.phone}</p>
                         </div>
                         }
                         <div className="flex justify-between">
                             <Button className='bg-sky-600'>Pošalji poruku</Button>
                             <span className="flex space-x-2" onClick={() => setPhoneVisible(!phoneVisible)}>
                                 <p className="text-sm mt-1">
-                                    Tel: {phoneVisible ? listingDetails.seller.phone 
-                                    : listingDetails.seller.phone.replace(listingDetails.seller.phone.slice(5, 
+                                    Tel: {phoneVisible ? listingDetails?.seller?.phone 
+                                    : listingDetails?.seller?.phone?.replace(listingDetails?.seller?.phone.slice(5, 
                                         listingDetails.seller.phone.length), '....')}</p>
                                 {phoneVisible ? <IoMdEyeOff className="mt-[0.4rem]"/> : <IoMdEye className="mt-[0.4rem]"/>}
                             </span>
@@ -217,11 +217,11 @@ export default function Page(params: { id: string } ) {
                 </div>
                 <div className="space-y-4">
                     {
-                        listingDetails.seller.name ? 
+                        listingDetails?.seller?.name ? 
                         <div className="flex flex-row justify-between space-x-4">
                             <div className="flex flex-col">
-                                <p className="text-lg">{listingDetails.seller.name}</p>
-                                <p className="text-sm">{listingDetails.seller.city}</p>
+                                <p className="text-lg">{listingDetails?.seller?.name}</p>
+                                <p className="text-sm">{listingDetails?.seller?.city}</p>
                             </div>
                             <div className="flex flex-col">
                                 <LazyImage src={listingDetails.seller.icon} alt={'Ikona prodavca'} style="w-30 h-auto"/>
@@ -229,17 +229,17 @@ export default function Page(params: { id: string } ) {
                         </div>
                         : 
                         <div>
-                            <p>{listingDetails.seller.city}</p>
-                            <p>Tel: {listingDetails.seller.phone}</p>
+                            <p>{listingDetails?.seller?.city}</p>
+                            <p>Tel: {listingDetails?.seller?.phone}</p>
                         </div>
                     }
                     <div className="flex justify-between">
                         <Button className='bg-sky-600'>Pošalji poruku</Button>
                         <span className="flex space-x-2" onClick={() => setPhoneVisible(!phoneVisible)}>
                             <p className="text-sm mt-1">
-                                Tel: {phoneVisible ? listingDetails.seller.phone 
-                                : listingDetails.seller.phone.replace(listingDetails.seller.phone.slice(5, 
-                                    listingDetails.seller.phone.length), '....')}</p>
+                                Tel: {phoneVisible ? listingDetails?.seller?.phone 
+                                : listingDetails?.seller?.phone?.replace(listingDetails?.seller?.phone.slice(5, 
+                                    listingDetails?.seller?.phone?.length), '....')}</p>
                                     {phoneVisible ? <IoMdEyeOff className="mt-[0.4rem]"/> : <IoMdEye className="mt-[0.4rem]"/>}
                         </span>
                     </div>

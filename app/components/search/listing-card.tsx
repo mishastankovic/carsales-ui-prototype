@@ -2,8 +2,8 @@
 
 import Image from "next/image";
 import { CardData } from "../../model/definitions"
-import LazyImage from "../lazy-loading-image";
-import { Button } from "../button";
+import LazyImage from "../basic/lazy-loading-image";
+import { Button } from "../basic/button";
 import { FaRegHeart } from "react-icons/fa";
 import { FaHeart } from "react-icons/fa";
 import { useState } from "react";

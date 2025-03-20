@@ -69,21 +69,27 @@ const Carousel = ({ images = [''], autoSlide = true, autoSlideInterval = 3000, g
     const getGalleryStartEnd = () => {
       let start = 0;
       let end = gallerySize;
-      if (currentIndex >= gallerySize) {
-        start = currentIndex - gallerySize + 1;
-      }
       if (images.length < gallerySize) {
         end = images.length;
-      }
+      } else {
+        if (currentIndex > gallerySize / 2) {
+          start = currentIndex - gallerySize / 2;
+          end = start + gallerySize;
+        }
+        if (end >= images.length) {
+          end = images.length;
+          start = end - gallerySize;
+        }
+    }
       return [start, end];
     }
 
 
-  // Rendering party
+  // Rendering part
   
   let [start, end] = getGalleryStartEnd();
 
-  const imageSlice = images.slice(start, start + end)
+  const imageSlice = images.slice(start, start + gallerySize)
   const itemStyles = getItemStyles(currentIndex);
   const galleryOffset = currentIndex / gallerySize * gallerySize; 
 

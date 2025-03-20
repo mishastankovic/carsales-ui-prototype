@@ -7,9 +7,9 @@ import {
   ExclamationCircleIcon,
 } from '@heroicons/react/24/outline';
 import { ArrowRightIcon } from '@heroicons/react/20/solid';
-import { Button } from '@/app/components/button';
+import { Button } from '@/app/components/basic/button';
 import { useActionState } from 'react';
-import { authenticate } from '@/app/lib/actions';
+import { authenticate } from '../backend/actions';
  
 export default function LoginForm() {
   const [errorMessage, formAction, isPending] = useActionState(

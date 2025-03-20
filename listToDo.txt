@@ -25,4 +25,7 @@
 - Implement Create listing
     - form
     - flow, curently without payment
-    - 
+- Car models database
+    - Implement interface to car models API that would return make, model, series and trim information.
+    Force the user to select all four when creating a listing.
+    - Include detailed information for the selected make - model - series - trim
